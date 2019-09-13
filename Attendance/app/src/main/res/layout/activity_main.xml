@@ -13,19 +13,21 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/bu2"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginTop="100dp"
+            android:onClick="registe"
             android:text="Teacher"
             android:textSize="36sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/bu3"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginTop="100dp"
             android:baselineAligned="false"
+            android:onClick="registe"
             android:text="Student"
             android:textSize="36sp"
             tools:visibility="visible" />
