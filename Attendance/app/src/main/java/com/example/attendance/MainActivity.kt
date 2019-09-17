@@ -8,6 +8,8 @@ import android.widget.Button
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.bu3
+import kotlinx.android.synthetic.main.activity_main2.*
+import kotlinx.android.synthetic.main.activity_main3.*
 
 
 import kotlinx.android.synthetic.main.activty_main2.*
@@ -23,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         var buselect= view as Button
         when(buselect.id){
             bu2.id->{
-                var intent=Intent(applicationContext,MainActivity2::class.java)
+                var intent=Intent(applicationContext,MainActivity4::class.java)
                 startActivity(intent)
             }
             bu3.id->{
